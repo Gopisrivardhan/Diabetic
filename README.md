@@ -56,7 +56,7 @@ In this project, the main objective is to check whether the person is having Dia
 + Clone this repository and unzip it.
 + After downloading, cd into the Diabetic directory.
 + Begin a new virtual environment with Python 3 and activate it.
-+ Install the required packages using `pip install -r requirements.txt`
++ Install the required packages 
 + Execute the command: `python manage.py`
 
 ## Future
