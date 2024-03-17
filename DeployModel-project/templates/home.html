@@ -1,0 +1,112 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diabetes Mellitus</title>
+    <style>
+      body {
+        background-image: url("{% static "img/28998.jpg" %}");
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      form {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        width: 80%; /* Adjust the width as needed */
+        max-width: 500px; /* Set a maximum width */
+      }
+
+      form label {
+        display: block;
+        margin-bottom: 8px;
+      }
+
+      form input {
+        width: calc(100% - 16px);
+        padding: 8px;
+        margin-bottom: 12px;
+        box-sizing: border-box;
+      }
+
+      form center {
+        text-align: center;
+      }
+
+      form .submit-btn,
+      form .logout-btn {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 12px;
+      }
+
+      form .submit-btn {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+      }
+
+      form .submit-btn:hover {
+        background-color: #45a049;
+      }
+
+      form .logout-btn {
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #f44336;
+        border: none;
+      }
+
+      form .logout-btn:hover {
+        background-color: #d32f2f;
+      }
+    </style>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  </head>
+  <body>
+    <form action="{% url 'result' %}">
+      {% csrf_token %}
+      <label>Pregnancies:</label>
+      <input type="text" name="Pregnancies" required />
+
+      <label>Glucose:</label>
+      <input type="text" name="Glucose" required />
+
+      <label>BloodPressure:</label>
+      <input type="text" name="BloodPressure" required />
+
+      <label>SkinThickness:</label>
+      <input type="text" name="SkinThickness" required />
+
+      <label>Insulin:</label>
+      <input type="text" name="Insulin" required />
+
+      <label>BMI:</label>
+      <input type="text" name="BMI" required />
+
+      <label>DiabetesPedigreeFunction:</label>
+      <input type="text" name="DiabetesPedigreeFunction" required />
+
+      <label>Age:</label>
+      <input type="text" name="Age" required />
+
+      <center>
+        <input type="submit" class="submit-btn" value="Submit" />
+        <a href="{% url 'logout' %}" class="logout-btn">Logout</a>
+      </center>
+    </form>
+  </body>
+</html>
