@@ -1,5 +1,7 @@
 # Diabetic Mellitus Detection System  
 
+[Video link](https://www.canva.com/design/DAF_wXXtvQ0/lQHOn73e_w0ZTPeLqNnJRQ/edit)  
+
 **Table of Content**
   - Team Details
   - Problem Statement
