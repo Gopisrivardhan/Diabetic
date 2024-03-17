@@ -46,6 +46,10 @@ In this project, the main objective is to check whether the person is having Dia
 + At early stage we will be collecting the information of the subject on Glucose levels, BMI, skin thickness, inslin level, blood pressure.
 + Then we will run through linear regression model and get the prdiction
 ![Untitled presentation pptx](https://github.com/Gopisrivardhan/Diabetic/assets/144594367/1164fe54-10ac-454e-a206-0840bf1a2658)
+![Screenshot (24)](https://github.com/Gopisrivardhan/Diabetic/assets/144594367/ed52ea62-8158-448e-b896-e85b1d6d01af)
+![Screenshot (27)](https://github.com/Gopisrivardhan/Diabetic/assets/144594367/66a560ef-4acc-4d18-9d1e-6b3c761413b6)
+![Screenshot (26)](https://github.com/Gopisrivardhan/Diabetic/assets/144594367/de4c01e3-3c5c-4e2f-9083-21e66564eef3)
+![Screenshot (25)](https://github.com/Gopisrivardhan/Diabetic/assets/144594367/85d6a325-a5cd-40a5-8aee-7920ace6ca95)
 
 
 ## Installation & Run
