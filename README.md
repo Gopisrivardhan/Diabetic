@@ -1,2 +1,2 @@
-# Diabetic
-Diabetic
+# Diabetic Mellitus Detection System
+
